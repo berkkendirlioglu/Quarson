@@ -55,7 +55,7 @@ export default function ServiceCards() {
         viewport={{ once: true, amount: 0.2 }}
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 group">
-          <div className="relative rounded-[25px] h-[500px] overflow-hidden order-2">
+          <div className="relative rounded-[25px] h-[500px] overflow-hidden order-1 lg:order-2">
             <Image
               className="object-cover select-none pointer-events-none"
               src={"/assets/Service/2.webp"}
@@ -63,7 +63,7 @@ export default function ServiceCards() {
               fill
             />
           </div>
-          <div className="flex flex-col gap-10 py-8 lg:px-18 px-0 order-1">
+          <div className="flex flex-col gap-10 py-8 lg:px-18 px-0 order-2 lg:order-1">
             <div className="flex flex-col gap-4">
               <h2 className="text-[24px] font-[500] pt-4">
                 Kişiye Özel Şömine

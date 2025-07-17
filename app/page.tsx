@@ -13,7 +13,7 @@ import { Mouse } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <section className="flex justify-center items-center h-auto">
         <div className="relative w-full">
           <div className="absolute bottom-[-30px] left-0 w-full h-[120px] z-[51] bg-[linear-gradient(0deg,rgba(75,57,52,1)_28%,rgba(87,199,133,0)_89%)]"></div>

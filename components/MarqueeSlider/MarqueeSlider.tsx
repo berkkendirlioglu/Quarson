@@ -15,9 +15,10 @@ export default function MarqueeSlider() {
         gradientColor="#4B3934"
         speed={100}
         className="w-full"
+        gradientWidth={100}
       >
         {featuredStone.slice(0, 6).map((brand, index) => (
-          <Link href={`/products?brandName=${brand.title}`} className="flex w-[400px] h-[500px] px-8 relative group flex justify-center items-center">
+          <Link href={`/products?brandName=${brand.title}`} className="flex w-[250px] h-[300px] lg:w-[400px] lg:h-[500px] px-8 relative group flex justify-center items-center">
             <div className="w-full h-full rounded-[5px] overflow-hidden">
               <Image
                 className="object-fit"

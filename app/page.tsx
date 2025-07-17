@@ -26,7 +26,7 @@ export default function Home() {
           <HeroSlider />
         </div>
       </section>
-      <section className="h-auto pt-[10rem] hidden">
+      <section className="h-auto pt-[10rem]">
         <div className="flex justify-center">
           <GlobalContainer>
             <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-16">

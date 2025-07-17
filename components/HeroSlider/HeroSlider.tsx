@@ -61,7 +61,7 @@ export default function HeroSlider() {
           <div className="keen-slider__slide !relative"><Image className="object-cover scale-animation" src="/assets/Hero/heroimg4.webp" alt="Hero Images" fill/></div>
         </div>
         <div className="absolute flex justify-center items-center bg-[rgba(0,0,0,.5)] w-full h-full top-0 left-0">
-            <p className="text-[48px] text-center">Hayallerinizi Kalitemizle <br /> <span className="text-[#b39e98] text-[56px] tracking-[2px]">Güzelleştiriyoruz</span></p>
+            <p className="text-[34px] lg:text-[48px] text-center">Hayallerinizi Kalitemizle <br /> <span className="text-[#b39e98] text-[42px] lg:text-[56px] tracking-[2px]">Güzelleştiriyoruz</span></p>
         </div>
         {loaded && instanceRef.current && (
           <>

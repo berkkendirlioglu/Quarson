@@ -42,7 +42,7 @@ export default function Home() {
           <FeaturedSlider />
         </div>
       </section>
-      <section className="h-auto pt-[10rem]">
+      <section className="h-auto pt-[7rem] lg:pt-[10rem]">
         <div className="flex justify-center items-center">
           <GlobalContainer>
             <div className="flex flex-col gap-[4rem]">
